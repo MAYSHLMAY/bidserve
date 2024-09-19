@@ -19,7 +19,7 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: ["http://localhost:5174"], // Explicitly allow your frontend's origin
+    origin: ["https://bid-sphere.vercel.app"], // Explicitly allow your frontend's origin
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true, // This allows cookies and other credentials to be sent
   })
